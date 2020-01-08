@@ -6,6 +6,7 @@ class Anagram
   end
   
   def match(match)
-   @word.split(/\w/)
+   @word.split(/\w/).each do |w|
+     w.detect
     
 end 
