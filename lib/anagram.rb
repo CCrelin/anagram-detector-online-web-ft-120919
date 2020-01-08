@@ -9,7 +9,6 @@ class Anagram
   
   
   def match(input)
-    binding.pry
     array =[]  
     input.each do |i| 
       if i.split("").sort == @word.split("").sort 
