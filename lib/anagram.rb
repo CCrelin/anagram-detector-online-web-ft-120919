@@ -8,7 +8,7 @@ class Anagram
   
   
   def match(match)
-   @word.split(/\w/) = array 
+    array = @word.split(/\w/) 
    array.each do |w|
      w.detect(match)
    end
