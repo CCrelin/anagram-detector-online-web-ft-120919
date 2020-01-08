@@ -6,6 +6,6 @@ class Anagram
   end
   
   def match(match)
-    if @word
+   @word.split(/\w/)
     
 end 
