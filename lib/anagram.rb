@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram 
   attr_accessor :word 
   
@@ -8,9 +9,9 @@ class Anagram
   
   
   def match(input)
-    array = @word.split(/\w/) 
-   array.detect do |a| a.include?(input)
-   end
+    array = @word.split("") 
+   binding.pry
+   
  end
     
 end 
