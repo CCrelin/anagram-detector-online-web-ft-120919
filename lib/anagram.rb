@@ -7,10 +7,9 @@ class Anagram
   end
   
   
-  def match()
+  def match(match)
     array = @word.split(/\w/) 
-   array.each do |w|
-     w.detect
+   array.detect do |a| a.include?(match)
    end
  end
     
